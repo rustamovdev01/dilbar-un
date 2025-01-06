@@ -557,6 +557,27 @@
 	.about-section-boxes div:nth-child(5) {
 		flex-direction: column-reverse;
 	}
+	.recipe-section-boxes-card{
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.recipe-section-boxes-card div{
+		justify-content: center;
+		text-align: center;
+		width: 90%;
+	}
+	.recipe-section-boxes-card h1{
+		width: 100%;
+	}
+	.recipe-section-boxes div:nth-child(2) {
+		flex-direction: column-reverse;
+	}
+	.recipe-section-boxes div:nth-child(4) {
+		flex-direction: column-reverse;
+	}
+	.recipe-section-boxes div:nth-child(6) {
+		flex-direction: column-reverse;
+	}
 }
 
 @media (max-width:1090px) {
@@ -574,7 +595,7 @@
 		flex-wrap: wrap;
 	}
 	.recipe-boxes-secondfood {
-		
+		flex-direction: column-reverse;
 	}
 	.recipe-boxes-firstfood-left{
 		width: 100%;

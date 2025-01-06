@@ -328,7 +328,7 @@ header .banner {
 .about-parallax{
 	width: 100%;
 	height: 468px;
-	background-image: url(https://dilbar-un.com/uploads/pages/1d505d76b13940e75d766929f3f4396c.png);
+	background-image: url(../media/1d505d76b13940e75d766929f3f4396c.png);
 	background-position: center;
 	object-fit: cover;
 	background-attachment: fixed;
