@@ -488,6 +488,9 @@
 }
 
 @media (max-width: 550px) {
+	.banner img {
+		width: 40%;
+	}
 	.banner-text {
 		width: 70%;
 	}
@@ -534,7 +537,33 @@
 	}
 }
 
+@media (max-width:1180px) {
+		
+	.about-section-boxes-card{
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.about-section-boxes-card div{
+		justify-content: center;
+		text-align: center;
+		width: 90%;
+	}
+	.about-section-boxes-card h1{
+		width: 100%;
+	}
+	.about-section-boxes div:nth-child(3) {
+		flex-direction: column-reverse;
+	}
+	.about-section-boxes div:nth-child(5) {
+		flex-direction: column-reverse;
+	}
+}
+
 @media (max-width:1090px) {
+	.recipe-boxes{
+		display: flex;
+		justify-content: center;
+	}
 	.recipe-boxes img {
 		width: 420px;
 		height: 360px;
@@ -543,6 +572,9 @@
 		width: 100%;
 		display: flex;
 		flex-wrap: wrap;
+	}
+	.recipe-boxes-secondfood {
+		
 	}
 	.recipe-boxes-firstfood-left{
 		width: 100%;
@@ -581,3 +613,9 @@
 	}
 }
 
+@media (max-width:940px) {
+	.about-section-info h1{
+		padding: 5px;
+
+	}
+}
