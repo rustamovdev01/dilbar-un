@@ -368,6 +368,78 @@ iframe{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	position: relative;
+}
+
+.partner{
+	position: absolute;
+	top: 80px;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: center;
+}
+
+.partner-title{
+	font-size: 35px;
+	line-height: 114%;
+	font-weight: 700;
+	text-align: center;
+	color: #502f0f;
+}
+
+.partner-form{
+	display: flex;
+	justify-content: center;
+	flex-wrap:wrap;
+	padding: 50px 0;
+}
+
+.partner-form label{
+	width: 100%;
+	padding-left: 200px;
+	line-height: 80px;
+}
+
+.partner-form label input{
+	text-decoration: none;
+	color: #502f0f;
+	font-size: 25px;
+	font-weight: 700;
+	line-height: normal;
+	font-weight: 600;
+	border: 1px solid rgba(80, 47, 15, 0.2);
+	border-radius: 100px;
+	background: rgba(255, 231, 204, 0.2);
+	padding: 14px 22px;
+	max-width: 734px;
+	width: 100%;
+	backdrop-filter: blur(50px);
+}
+
+label h4 {
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 170%;
+	color: #502f0f;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+.partner-btn{
+	width: 60px;
+	height: 60px;
+	background-color: rgba(255, 231, 204, 0.2);
+	font-size: 26px;
+	padding: 0;
+	border: 1px solid rgba(80, 47, 15, 0.2);
+	border-radius: 50%;
+	backdrop-filter: blur(50px);
+	color: #502f0f;
+	margin-left: 20px;
+}
+
+button:hover{
+	cursor: pointer;
 }
 
 .footer-boxes {
