@@ -446,8 +446,7 @@ button:hover{
 	display: flex;
 	margin-top: 560px;
 	padding: 60px 10px;
-	gap: 50px;
-}
+	}
 
 .box_texts {
 	display: flex;

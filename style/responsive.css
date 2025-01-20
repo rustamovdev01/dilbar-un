@@ -41,6 +41,7 @@
 	.four a{
 		font-size: 18px;
 	}
+	
 }
 
 @media (max-width:1340px) {
@@ -487,6 +488,13 @@
 	}
 }
 
+@media (max-width:770px) {
+	.banner{
+		width: 450px;
+	}
+}
+
+
 @media (max-width:470px) {
 	.box_texts a{
 		font-size: 8px;
@@ -548,6 +556,7 @@
 	.info-right p {
 		font-size: 14px;
 	}
+
 }
 
 @media (max-width: 465px) {
@@ -559,6 +568,33 @@
 @media (max-width: 400px) {
 	.info-right p {
 		font-size: 12px;
+	}
+}
+
+@media (max-width:770px) {
+	.banner{
+		width: 450px;
+	}
+}
+
+@media (max-width:450px) {
+	.banner{
+		width: 350px;
+	}
+}
+@media (max-width:355px) {
+	.footer-boxes{
+		gap: 0px;
+	}
+	.one{
+		width: 100px;
+	}
+
+	.three{
+		width: 20px;
+	}
+	.banner{
+		width: 300px;
 	}
 }
 
@@ -626,7 +662,38 @@
 	.recipe-section-boxes div:nth-child(6) {
 		flex-direction: column-reverse;
 	}
+	.recipe-section-boxes-card h1{
+		font-size: 28px;
+	}
+	.recipe-section-boxes-card p{
+		font-size: 24px;
+	}
+	.service-section-boxes-card h1{
+		font-size: 28px;
+	}
+	.service-section-boxes-card p{
+		font-size: 24px;
+	}
+	.service-section-boxes-card{
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.service-section-boxes-card div{
+		justify-content: center;
+		text-align: center;
+		width: 90%;
+	}
+	.service-section-boxes-card h1{
+		width: 100%;
+	}
+	.service-section-boxes div:nth-child(3) {
+		flex-direction: column-reverse;
+	}
+	.service-section-boxes div:nth-child(5) {
+		flex-direction: column-reverse;
+	}
 }
+
 
 @media (max-width:1090px) {
 	.recipe-boxes{
@@ -686,5 +753,67 @@
 	.about-section-info h1{
 		padding: 5px;
 
+	}
+	.service-section-info h1{
+		padding: 5px;
+
+	}
+}
+
+@media (max-width:480px) {
+	.footer-boxes{
+		gap: 10px;
+	}
+	.one{
+		width: 130px;
+	}
+	.two{
+		display: none;
+	}
+	.three{
+		width: 100px;
+	}
+}
+
+@media (max-width:1175px){
+	.product-wrapper-boxes div{
+		height: 480px;
+	}
+	.product-wrapper-boxes h2{
+		font-size: 22px;
+	}
+	.product-wrapper-boxes button span{
+		font-size: 19px;
+	}
+}
+
+@media (max-width:839px) {
+	.product-wrapper-boxes{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+			
+	}
+	.product-wrapper-boxes div{
+		width: 72%;
+	}
+}
+
+@media (max-width:1000px) {
+	.tradition-items h1{
+		font-size: 35px;
+	}
+	.tradition-btn{
+		width: 680px;
+	}
+}
+
+@media (max-width:770px) {
+	.tradition-items h1{
+		font-size: 30px;
+	}
+	.tradition-btn{
+		width: 650px;
 	}
 }

@@ -492,14 +492,18 @@ a{
 }
 
 .recipes-wrapper-row{
-	width: 80%;
+	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
 	gap: 30px;
 }
 
+.recipes-wrapper-row-parent{
+	width: 80%;
+}
+
 .recipes-wrapper-row img {
-	width: 263.33px;
+	width: 100%;
 	height: 260px;
 	object-fit: cover;
 	object-position: center;
@@ -509,8 +513,8 @@ a{
 }
 
 .recipes-wrapper-row-card{
-	width: 263px;
-	height: 350px;
+	width: 31%;
+	height: 0 auto;
 	padding: 15px;
 	display: flex;
 	flex-wrap: wrap;
@@ -548,7 +552,6 @@ a{
 	display: flex;
 	margin-top: 560px;
 	padding: 60px 10px;
-	gap: 50px;
 }
 
 .box_texts {
@@ -661,4 +664,481 @@ a {
 
 .fa-brands {
 	font-size: 30px;
+}
+
+@media (max-width:500px) {
+	.one img{
+		width: 120px;
+	}
+	.box_texts a{
+		font-size: 8px;
+	}
+	.box_texts {
+		gap: 15px;
+	}
+	.one{
+		width: 140px;
+		height: 160px;
+	}
+	.two{
+		width: 120px;
+	}
+	.kontakt{
+		gap: 10px;
+	}
+	.three{
+		width: 80px;
+	}
+	.four{
+		width: 15px;
+		height: 130px;
+	}
+	.one p {
+		font-size: 8px;
+	}
+	.box-texts a{
+		font-size: 8px
+	}
+	.two{
+		font-size: 8px;
+		gap: 20px;
+	}
+	.two h2{
+		font-size: 8px;
+	}
+	.three p {
+		font-size: 8px;
+	}
+	.four p{
+		font-size: 8px;
+	}
+	.four a{
+		font-size: 8px;
+	}
+}
+
+
+
+@media (max-width:555px) {
+
+	.box_texts a{
+		font-size: 10px;
+	}
+	.box_texts {
+		gap: 20px;
+	}
+	.one{
+		width: 100px;
+		height: 120px;
+	}
+	.two{
+		width: 120px;
+	}
+	.three{
+		width: 60px;
+	}
+	.four{
+		width: 10px;
+		height: 100px;
+	}
+	.one p {
+		font-size: 8px;
+	}
+	.box-texts a{
+		font-size: 8px
+	}
+	.two{
+		font-size: 8px;
+		gap: 20px;
+	}
+	.two h2{
+		font-size: 8px;
+	}
+	.three p {
+		font-size: 8px;
+	}
+	.four p{
+		font-size: 8px;
+	}
+	.four a{
+		font-size: 8px;
+	}
+}
+
+
+@media (max-width:625px) {
+	.box_texts a{
+		font-size: 14px;
+	}
+	.box_texts {
+		gap: 25px;
+	}
+	.one{
+		width: 200px;
+		height: 200px;
+	}
+	.two{
+		width: 140px;
+	}
+	.three{
+		width: 100px;
+	}
+	.four{
+		width: 20px;
+		height: 130px;
+	}
+}
+
+
+@media (max-width:680px){
+	.one img{
+		width: 150px;
+	}
+	.one p {
+		font-size: 10px;
+	}
+	.box-texts a{
+		font-size: 10px
+	}
+	.two{
+		font-size: 10px;
+	}
+	.two h2{
+		font-size: 10px;
+	}
+	.three p {
+		font-size: 10px;
+	}
+	.four p{
+		font-size: 8px;
+	}
+	.four a{
+		font-size: 8px;
+	}
+	.fa-brands{
+		font-size: 15px;
+	}
+	.box_texts a{
+		font-size: 14px;
+	}
+	.box_texts {
+		gap: 30px;
+	}
+	.one{
+		height: 240px;
+	}
+	.four{
+		height: 160px;
+	}
+}
+
+
+@media (max-width:721px) {
+
+	.one{
+		width: 240px;
+	}
+	.two{
+		width: 180px;
+	}
+	.three{
+		width: 110px;
+	}
+	.four{
+		width: 30px;
+	}
+	.one img {
+		width: 200px;
+	}
+	.box_texts a{
+		font-size: 15px;
+	}
+	.box_texts {
+		gap: 40px;
+	}
+
+}
+
+@media (max-width:740px) {
+	.service-section-boxes-card img {
+		width: 100%;
+	}
+}
+
+@media (max-width:885px) {
+	.service-section-info h1{
+		font-size: 25px;
+	}
+	.service-section-boxes-card h1{
+		font-size: 30px;
+	}
+	.service-section-boxes-card p {
+		font-size: 24px;
+	}
+	.one p {
+		font-size: 12px;
+	}
+	.box-texts a{
+		font-size: 12px
+	}
+	.two{
+		font-size: 12px;
+	}
+	.two h2{
+		font-size: 12px;
+	}
+	.three p {
+		font-size: 12px;
+	}
+	.four p{
+		font-size: 8px;
+	}
+	.four a{
+		font-size: 12px;
+	}
+	.one{
+		width: 260px;
+	}
+	.two{
+		width: 200px;
+	}
+	.three{
+		width: 120px;
+	}
+	.four{
+		width: 35px;
+	}
+	.fa-brands{
+		font-size: 20px;
+	}
+	.box_texts a{
+		font-size: 16px;
+	}
+	.box_texts {
+		gap: 50px;
+	}
+}
+
+
+
+
+@media (max-width:1000px) {
+
+	.one{
+		width: 320px;
+	}
+	.two{
+		width: 280px;
+	}
+	.three{
+		width: 140px;
+	}
+	.four{
+		width: 75px;
+	}
+}
+
+@media (max-width:1155px) {
+	.one p {
+		font-size: 14px;
+	}
+	.box-texts a{
+		font-size: 14px
+	}
+	.two{
+		font-size: 14px;
+	}
+	.two h2{
+		font-size: 14px;
+	}
+	.three p {
+		font-size: 14px;
+	}
+	.four p{
+		font-size: 10px;
+	}
+	.four a{
+		font-size: 14px;
+	}
+	.one{
+		width: 300px;
+	}
+	.two{
+		width: 300px;
+	}
+	.three{
+		width: 140px;
+	}
+	.four{
+		width: 105px;
+	}
+}
+
+
+@media (max-width: 1171px) {
+
+	.one p {
+		font-size: 15px;
+	}
+	.box-texts a{
+		font-size: 15px
+	}
+	.two{
+		font-size: 15px;
+	}
+	.two h2{
+		font-size: 15px;
+	}
+	.three p {
+		font-size: 15px;
+	}
+	.four p{
+		font-size: 11px;
+	}
+	.four a{
+		font-size: 15px;
+	}
+	.one{
+		width: 400px;
+	}
+	.two{
+		width: 360px;
+	}
+	.three{
+		width: 220px;
+	}
+	.four{
+		width: 155px;
+	}
+}
+
+@media (max-width:540px) {
+	.one{
+		width: 140px !important;
+	}
+	.two{
+		width: 100px !important;
+	}
+	.three{
+		width: 60px !important;
+	}
+}
+
+@media (max-width:430px) {
+	.recipe-section-boxes-card img {
+		width: 100%;
+	}
+}
+
+@media (max-width:1171px) {
+	.banner-text {
+		font-size: 40px !important;
+	}
+}
+
+@media (max-width:740px) {
+
+	.service-section-boxes-card img {
+		width: 100%;
+	}
+	.service-section-info h1{
+		font-size: 25px !important;
+	}
+	.service-section-boxes-card h1{
+		font-size: 23px !important;
+	}
+	.service-section-boxes-card p {
+		font-size: 17px !important;
+	}
+}
+
+@media (max-width:550px) {
+	.footer-boxes{
+		gap: 10px;
+	}
+	.one{
+		width: 150px;
+	}
+	.two{
+		display: none;
+	}
+	.three{ 
+		width: 100px;
+	}
+	.service-section-info h1{
+		font-size: 19px !important;
+	}
+}
+
+@media (max-width:1800px) {
+	form{
+		flex-wrap: wrap;
+	}
+	.select{
+		width: 28% !important;
+	}
+	.recipes-wrapper-row img {
+		height: 220px;
+	}
+}
+
+@media (max-width:1340px) {
+	.recipes-wrapper-menu{
+		width: 100%;
+	}
+	.recipes-wrapper-menu-items{
+		width: 100%;
+	}
+	.recipes-wrapper-menu-items-texts{
+		width: 100%;
+		display: flex;
+		padding: 40px 10px 0px 10px;
+		justify-content: center;
+		align-items: center;
+		flex-direction: row;
+		gap: 50px;
+	}
+	.recipes-wrapper{
+		flex-wrap: wrap;
+	}
+	.recipes-wrapper-menu-items-img{
+		display: none;
+	}
+	.recipes-wrapper-row-parent{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+	form{
+		padding-right: 0px;
+	}
+	.recipes-wrapper-row{
+		width: 100%;
+	}
+}
+
+@media (max-width:855px) {
+	.recipes-wrapper-menu-items-texts{
+		padding: 40px 5px 0px 5px;
+		gap: 25px;
+	}
+		.recipes-wrapper-row{
+			gap: 15px;
+		}
+}
+
+@media (max-width:700px) {
+	.recipes-wrapper-menu-items-texts p a{
+		font-size: 13px;
+	}
+	.recipes-wrapper-menu-items-texts-category{
+		font-size: 15px;
+	}
+	.recipes-wrapper-menu-items-texts{
+		padding: 40px 0 0 0;
+		gap: 15px;
+	}
+	.recipes-wrapper-row-card{
+		width: 48%;
+	}
 }

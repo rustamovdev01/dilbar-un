@@ -183,8 +183,9 @@ header .banner {
 
 .banner {
 	width: 550px;
-	display: grid;
-	place-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .banner_child {
@@ -224,7 +225,6 @@ header .banner {
 	color: white;
 	font-size: 40px;
 	text-align: center;
-	display: flex;
 	gap: 15px;
 }
 
