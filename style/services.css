@@ -176,7 +176,7 @@ header .banner {
 .banner_child {
 	position: absolute;
 	pointer-events: none;
-	width: 550px;
+	width: 100%;
 	gap: 60px;
 	display: flex;
 	justify-content: center;
@@ -188,8 +188,7 @@ header .banner {
 	color: white;
 	font-size: 40px;
 	text-align: center;
-	display: flex;
-	gap: 15px;
+	width: 100%;
 }
 
 .arrow-container {
@@ -845,9 +844,24 @@ a {
 	}
 }
 
+
+@media (max-width: 550px) {
+	
+	.banner-text {
+		width: 30% !important;
+	}
+}
+
+
 @media (max-width:1171px) {
 	.banner-text {
 		font-size: 40px !important;
+	}
+}
+
+@media (max-width:450px) {
+	.banner-text{
+		font-size: 18px !important;
 	}
 }
 

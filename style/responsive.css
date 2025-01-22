@@ -44,6 +44,24 @@
 	
 }
 
+@media (max-width:780px) {
+	footer{
+		height: 900px !important;
+	}
+	.footer-boxes{
+		margin-top: 370px;
+	}
+}
+
+@media (max-width:500px) {
+	.footer-boxes{
+		margin-top: 200px !important;
+	}
+	footer{
+		height: 650px !important;
+	}
+}
+
 @media (max-width:1340px) {
 	.about-boxes-box{
 		width: 30%;

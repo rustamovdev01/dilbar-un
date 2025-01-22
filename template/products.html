@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -57,21 +59,23 @@
 
     <section class="product-wrapper">
         <div class="product-wrapper-boxes container">
-            <div class="product-wrapper-boxes-first-box">
+            <div class="product-wrapper-boxes-first-box" data-aos="zoom-out" data-aos-duration="1300"data-aos-easing="linear" >
                 <h2>BIRINCHI NAVLI BUG'DOY UNI</h2>
                 <button class="product-wrapper-boxes-box-first-btn"><span class="btn-front-text">BATAFSIL</span>
                     <div class="first-btn-front"></div>
                 </button>
 
             </div>
-            <div class="product-wrapper-boxes-second-box">
+            <div class="product-wrapper-boxes-second-box"data-aos="fade-left"
+            data-aos-duration="900"data-aos-easing="linear">
                 <h2>OLIY NAVLI BUG'DOY UNI</h2>
                 <button class="product-wrapper-boxes-box-second-btn"><span class="btn-front-text">BATAFSIL</span>
                     <div class="second-btn-front"></div>
                 </button>
 
             </div>
-            <div class="product-wrapper-boxes-third-box">
+            <div class="product-wrapper-boxes-third-box"data-aos="fade-left"
+            data-aos-duration="1200"data-aos-easing="linear">
                 <h2>IKKINCHI NAVLI BUG'DOY UNI</h2>
                 <button class="product-wrapper-boxes-box-third-btn"><span class="btn-front-text">BATAFSIL</span>
                     <div class="third-btn-front"></div>
@@ -210,6 +214,10 @@
     
     <script src="../js/products.js"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
     <script>
         ScrollReveal().reveal('.banner-logo', {
 			delay: 400,
@@ -229,30 +237,30 @@
 			reset: 'true',
 
 		})
-        ScrollReveal().reveal('.product-wrapper-boxes-first-box', {
-            delay: 200,
-			duration: 1400,
-			distance: '50px',
-			reset: 'true',
-			scale: '1.4'
+        // ScrollReveal().reveal('.product-wrapper-boxes-first-box', {
+        //     delay: 200,
+		// 	duration: 1400,
+		// 	distance: '50px',
+		// 	reset: 'true',
+		// 	scale: '1.4'
 
-        })
-        ScrollReveal().reveal('.product-wrapper-boxes-second-box', {
-            delay: 400,
-            duration: 1400,
-            distance: '100px',
-            origin: 'right',
-            reset: 'true',
+        // })
+        // ScrollReveal().reveal('.product-wrapper-boxes-second-box', {
+        //     delay: 400,
+        //     duration: 1400,
+        //     distance: '100px',
+        //     origin: 'right',
+        //     reset: 'true',
 
-        })
-        ScrollReveal().reveal('.product-wrapper-boxes-third-box', {
-            delay: 600,
-            duration: 1400,
-            distance: '100px',
-            origin: 'right',
-            reset: 'true',
+        // })
+        // ScrollReveal().reveal('.product-wrapper-boxes-third-box', {
+        //     delay: 600,
+        //     duration: 1400,
+        //     distance: '100px',
+        //     origin: 'right',
+        //     reset: 'true',
 
-        })
+        // })
         ScrollReveal().reveal('.one-right, .two-left, .three-right, .four-left, .five-right, .six-left', {
 			delay: 200,
 			duration: 1400,

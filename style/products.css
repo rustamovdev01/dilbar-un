@@ -1065,6 +1065,21 @@ a {
 	}
 }
 
+@media (max-width: 550px) {
+	.banner img {
+		width: 40%;
+	}
+	.banner-text {
+		width: 50% !important;
+	}
+}
+
+@media (max-width:450px) {
+		.banner-text{
+			font-size: 18px !important;
+		}
+}
+
 @media (max-width:591px) {
 	.tradition-text{
 		font-size: 22px !important;
@@ -1090,6 +1105,12 @@ a {
 	.product-quality-center{
 		font-size: 10px !important;
 		width: 98%;
+	}
+}
+
+@media (max-width:540px) {
+	.tradition-items{
+		max-width: 99% !important;
 	}
 }
 

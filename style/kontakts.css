@@ -559,3 +559,39 @@ a {
 .fa-brands {
 	font-size: 30px;
 }
+
+@media (max-width:1165px) {
+	.partner-form label{
+		padding-left: 150px;
+	}
+	label h4 {
+		font-size: 18px;
+	}
+}
+
+@media (max-width:1010px) {
+	.partner-form label {
+		padding-left:100px ;
+	}
+	label h4 {
+		font-size: 17px;
+	}
+}
+
+@media (max-width:940px) {
+	.partner-form label {
+		padding-left:30px ;
+	}
+	label h4 {
+		font-size: 16px;
+	}
+}
+
+@media (max-width:850px) {
+	.partner-form label {
+		padding-left:10px;
+	}
+	label h4 {
+		font-size: 15px;
+	}
+}
